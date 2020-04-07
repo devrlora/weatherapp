@@ -5,29 +5,26 @@ import Days from './Days'
 function App() {
   return (
     <div className="App">
-      <div className='weather-container'>
       <Days 
       day='Monday'
       max={70}
       min={65}/>
       <Days 
-      day='Monday'
+      day='Tuesday'
       max={70}
       min={65}/>
       <Days 
-      day='Monday'
+      day='Wednesday'
       max={70}
       min={65}/>
       <Days 
-      day='Monday'
+      day='Thursday'
       max={70}
       min={65}/>
       <Days 
-      day='Monday'
+      day='Friday'
       max={70}
-      min={65}/>
-      </div>
-      
+      min={65}/>      
     </div>
   );
 }
