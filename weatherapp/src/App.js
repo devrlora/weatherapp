@@ -6,25 +6,25 @@ function App() {
   return (
     <div className="App">
       <Days 
-      day='Mon'
-      max={70}
-      min={65}/>
+        day='Mon'
+        max={70}
+        min={65}/>
       <Days 
-      day='Tues'
-      max={70}
-      min={65}/>
+        day='Tues'
+        max={70}
+        min={65}/>
       <Days 
-      day='Wed'
-      max={70}
-      min={65}/>
+        day='Wed'
+        max={70}
+        min={65}/>
       <Days 
-      day='Thurs'
-      max={70}
-      min={65}/>
+        day='Thurs'
+        max={70}
+        min={65}/>
       <Days 
-      day='Fri'
-      max={70}
-      min={65}/>      
+        day='Fri'
+        max={70}
+        min={65}/>      
     </div>
   );
 }
