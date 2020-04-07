@@ -1,16 +1,25 @@
 import React, {Component } from 'react';
 
-
 class Days extends Component{
+    static defaultProps={ 
+        day: '',
+        numDays:5
+    }
+
+    constructor(props){
+        super(props)
+        this.state = {
+            day: 'Sunday',
+            min: 0,
+            max: 0
+        }
+    }
     render(){
         return (
             <div class="weather-container">
-                <div class="number-container">
-                 <img class="icon"/>
-                 <p class="tempMax"></p>
-                 <p class="tempMin"></p>
-                </div>
-            
+                <p>{this.props.day}</p>
+                <p>{this.state.min}</p>
+                <p>{this.state.max}</p>
                 </div>
         )
     }
