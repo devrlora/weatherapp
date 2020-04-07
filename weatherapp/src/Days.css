@@ -1,0 +1,12 @@
+.weather-container{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.number-container{
+text-align: center;
+}
