@@ -7,11 +7,25 @@ function App() {
     <div className="App">
       <div className='weather-container'>
       <Days 
-      day='Monday'/>
-      <Days />
-      <Days />
-      <Days />
-      <Days />
+      day='Monday'
+      max={70}
+      min={65}/>
+      <Days 
+      day='Monday'
+      max={70}
+      min={65}/>
+      <Days 
+      day='Monday'
+      max={70}
+      min={65}/>
+      <Days 
+      day='Monday'
+      max={70}
+      min={65}/>
+      <Days 
+      day='Monday'
+      max={70}
+      min={65}/>
       </div>
       
     </div>
