@@ -18,8 +18,8 @@ class Days extends Component{
         return (
             <div class="weather-container">
                 <p>{this.props.day}</p>
-                <p>{this.state.min}</p>
-                <p>{this.state.max}</p>
+                <p>{this.props.min}</p>
+                <p>{this.props.max}</p>
                 </div>
         )
     }
