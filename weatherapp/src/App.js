@@ -10,6 +10,7 @@ import {
 
 function App() {
   return (
+    <div className='Parent-App'>
     <div className="App">
       {/* The default props are temporarily given a hard-coded value   */}
       <Days 
@@ -32,6 +33,7 @@ function App() {
         day='Fri'
         max={70}
         min={65}/>      
+    </div>
     </div>
   );
 }
