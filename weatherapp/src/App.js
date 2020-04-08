@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
 import Days from './Days'
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
