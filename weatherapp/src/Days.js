@@ -16,7 +16,7 @@ class Days extends Component{
             max: 0
         }
 
-
+// Create a function that links to the weather API
 
     }
 // Each container will render an instance of the object properties
@@ -31,7 +31,8 @@ class Days extends Component{
     }
     
 }
-// The component will be passed to App.js, where it will render an instance of "Days" component.
+// The component will be passed to App.js, where it will render 
+// an instance of "Days" component.
 export default Days;
 
 
