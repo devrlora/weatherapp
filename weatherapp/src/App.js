@@ -2,9 +2,11 @@ import React from 'react';
 import './App.css';
 import Days from './Days'
 
+
 function App() {
   return (
     <div className="App">
+      {/* The default props are temporarily changed given a hardcoded value   */}
       <Days 
         day='Mon'
         max={70}
