@@ -1,11 +1,15 @@
 .App {
-  text-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 10px;
   background-color: #0E488F;
   color: white;
   border: solid;
+  border-color: maroon;
+}
+
+.Parent-App{
+  text-align: center;
 }
