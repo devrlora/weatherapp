@@ -1,11 +1,13 @@
 import React, {Component } from 'react';
 
+// Create a component class that defines the day of the week
+// Properties that wont change are the day of week, and number of days per week
 class Days extends Component{
     static defaultProps={ 
         day: '',
         numDays:5
     }
-
+// ?Stateful elements include min and max temperature each day?
     constructor(props){
         super(props)
         this.state = {
@@ -13,7 +15,11 @@ class Days extends Component{
             min: 0,
             max: 0
         }
+
+
+
     }
+// Each container will render an instance of the object properties
     render(){
         return (
             <div class="weather-container">
@@ -25,5 +31,7 @@ class Days extends Component{
     }
     
 }
-
+// The component will be passed to App.js, where it will render an instance of "Days" component.
 export default Days;
+
+
