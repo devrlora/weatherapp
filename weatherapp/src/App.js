@@ -11,7 +11,7 @@ import {
 function App() {
   return (
     <div className="App">
-      {/* The default props are temporarily changed given a hardcoded value   */}
+      {/* The default props are temporarily given a hard-coded value   */}
       <Days 
         day='Mon'
         max={70}
