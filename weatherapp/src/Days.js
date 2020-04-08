@@ -1,4 +1,7 @@
 import React, {Component } from 'react';
+import Hours from './Hours'
+
+
 // Create a component class that defines the day of the week
 // Properties that wont change are the day of week, and number of days per week
 class Days extends Component{
